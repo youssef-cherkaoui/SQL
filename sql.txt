@@ -11,7 +11,7 @@ Create Table Rooms(
 );
 
 Create Table Mouvement(
-	id_mouvement INT,
+	id_mouvement INT PRIMARY KEY,
 	id_invite INT,
 	id_room INT,
 	time VARCHAR(100)
@@ -24,7 +24,7 @@ Create Table objet(
 );
 
 Create Table Indice(
-	id_indice INT Primary KEy,
+	id_indice INT Primary KEY,
 	description VARCHAR(500),
 	id_room INT 
 );

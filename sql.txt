@@ -37,3 +37,7 @@ SELECT * FROM Invite ;
 SELECT nom, statut FROM Invite;
 -------------
 SELECT COUNT(*) FROM Invite;
+----------
+SELECT COUNT(*) FROM Invite WHERE statut = 'Suspect';
+
+

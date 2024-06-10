@@ -33,3 +33,5 @@ Create Table Indice(
 -------------------
 
 SELECT * FROM Invite ; 
+--------------
+SELECT nom, statut FROM Invite;

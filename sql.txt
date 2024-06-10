@@ -1,0 +1,30 @@
+CREATE TABLE Invite (
+    id_invite INT PRIMARY KEY,
+    nom VARCHAR(100),
+    statut VARCHAR(50)
+);
+
+
+Create Table Rooms(
+	id_room INT PRIMARY KEY,
+	nom VARCHAR(100)
+);
+
+Create Table Mouvement(
+	id_mouvement INT,
+	id_invite INT,
+	id_room INT,
+	time VARCHAR(100)
+);
+
+Create Table objet(
+	id_objet INT PRIMARY KEY ,
+	nom_objet VARCHAR(500),
+	id_room INT 
+);
+
+Create Table Indice(
+	id_indice INT Primary KEy,
+	description VARCHAR(500),
+	id_room INT 
+);

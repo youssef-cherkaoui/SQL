@@ -39,5 +39,9 @@ SELECT nom, statut FROM Invite;
 SELECT COUNT(*) FROM Invite;
 ----------
 SELECT COUNT(*) FROM Invite WHERE statut = 'Suspect';
+---------------------
+SELECT id_invite, COUNT(*) AS nmb_mouv
+FROM Mouvement
+GROUP BY id_invite;
 
 
